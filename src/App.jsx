@@ -3,7 +3,7 @@ import { Table, Button, Modal, Form, Spinner } from "react-bootstrap";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const API_URL = "https://jsonplaceholder.typicode.com/users";
+const API_URL = "http://localhost:3000/users";
 
 function App() {
   const [students, setStudents] = useState([]);

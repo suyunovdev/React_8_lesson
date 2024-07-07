@@ -56,3 +56,12 @@ body {
   margin: 0 auto;
   margin-top: 20px;
 }
+.btn-warning{
+  background-color: green !important;
+  border: green !important;
+  color: blue !important;;
+  
+}
+.btn-danger{
+  background: red !important;
+}
