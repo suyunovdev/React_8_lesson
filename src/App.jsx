@@ -185,14 +185,14 @@ function App() {
                     variant="warning"
                     onClick={() => handleEdit(student)}
                   >
-                    Edit
+                    ✍️
                   </Button>{" "}
                   <Button
                     className="buton"
                     variant="danger"
                     onClick={() => handleDelete(student.id)}
                   >
-                    Delete
+                    🗑️
                   </Button>
                 </td>
               </tr>
