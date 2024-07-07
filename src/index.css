@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f8f9fa;  */
+}
+.Main {
+  /* background-image: url(../src/assets/react.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh; */
+}
+.container {
+  max-width: 1240px;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+.btn {
+  border-radius: 15px;
+}
+
+.rows {
+  display: flex;
+  gap: 30px;
+}
+.rows button {
+  margin-top: auto;
+}
+.input-group input {
+  width: 850px !important;
+  color: #000 !important;
+}
+.input-group input::placeholder {
+  color: #000;
+}
+
+.table {
+  border-radius: 14px !important;
+}
+
+.tds {
+  display: flex;
+  justify-content: space-around;
+}
+.tds > buton > :hover {
+  display: flex;
+  justify-content: space-around;
+  transform: scale(1) !important;
+}
+.primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
